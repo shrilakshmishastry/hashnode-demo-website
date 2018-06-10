@@ -4,8 +4,14 @@ import {BrowserRouter} from 'react-router-dom'
 require('/home/shri/hashnode/front/images/favicon.png')
 import Favicon from 'react-favicon'
 import App from './js/App.js'
+import WebFont from 'webfontloader';
+WebFont.load({
+  google:{
+    families: ['Anton','sans-serif' ]
+  }
+});
 render(
-  <div>
+  <div >
 
   <BrowserRouter>
       <App/>
