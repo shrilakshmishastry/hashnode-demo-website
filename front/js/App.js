@@ -9,7 +9,7 @@ WebFont.load({
   }
 });
 const App=()=>(
-  <div className="d-flex flex-row justify-content-between">
+  <div className="ml-0 pl-0 container d-flex flex-row  ">
     <Header/>
     <Main/>
     <Side/>

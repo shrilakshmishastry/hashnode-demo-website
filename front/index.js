@@ -5,6 +5,7 @@ require('/home/shri/hashnode/front/images/favicon.png')
 import Favicon from 'react-favicon'
 import App from './js/App.js'
 import WebFont from 'webfontloader';
+import styled from 'styled-components';
 WebFont.load({
   google:{
     families: ['Anton','sans-serif' ]

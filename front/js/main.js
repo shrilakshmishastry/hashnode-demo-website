@@ -9,7 +9,7 @@ WebFont.load({
 });
 const Main=()=>(
 
-  <main className="col-md-7 bg-warning">
+  <main className="col-md-8 bg-warning">
     <Switch>
       <Route path='/home' component={Home}>
       </Route>
